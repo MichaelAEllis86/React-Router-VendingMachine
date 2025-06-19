@@ -1,0 +1,40 @@
+.tenor-gif-embed{
+    width: 50%;          /* Scale based on parent container */
+    max-width: 400px;    /* Don't get too large */
+    margin: auto;
+  }
+
+  .vending-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.main-content {
+  flex: 2;
+  max-width: 70%;
+}
+
+.menu {
+  flex: 1;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.menu nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #00ff99;
+  font-weight: bold;
+}
+
+.menu a.active {
+  color: #ff0;
+}

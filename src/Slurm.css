@@ -1,0 +1,77 @@
+.slurm-page {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+#slurmcontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    margin: 0 auto;       /* Center the container */
+}
+
+
+body{
+    background-color: hotpink;
+    font-family: 'Luckiest Guy', cursive;
+    color: limegreen;
+}
+
+a{
+    color: limegreen;
+    font-size: larger;
+}
+
+.img-wrapper {
+    flex: 1 1 200px; /* grow and shrink as needed, min width ~200px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    min-width: 200px;
+}
+    
+
+.slurmcan{
+    width: 100%;          
+    height: auto;
+    animation: spin 10s linear infinite;
+    max-width: 300px;
+  }
+
+.slurmneon{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.slurmslug{
+    width: 100%; 
+    height: auto;        
+    max-width: 300px;    
+}
+
+@media (max-width: 600px) {
+  .img-wrapper {
+    flex: 1 1 100%;
+  }
+}
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
